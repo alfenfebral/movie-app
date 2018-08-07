@@ -8,6 +8,8 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'prettier/prettier': 'error',
-    'react/jsx-one-expression-per-line': 0
+    'react/jsx-one-expression-per-line': 0,
+    'import/prefer-default-export': 'off',
+    'react/forbid-prop-types': 0
   }
 };
